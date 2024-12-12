@@ -1,0 +1,59 @@
+.header{
+    display: grid;
+    grid-template-columns: 75px repeat(8, 1fr);
+    grid-template-rows: 75px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.logo{
+    grid-area: 1 / 1 / 2 / 3;
+}
+
+#logo{
+    width: 75px;
+    height: 75px;
+}
+
+.search{
+    grid-area: 1 / 3 / 2 / 7;
+}
+
+.search > input {
+    background-color: white;
+    width: 50%;
+    /* margin-left: 8%; */
+    margin-top: 18px;
+    padding: 10px;
+    padding-right: 250px;
+    padding-bottom: 6px;
+    border-radius: 40px;
+    font-size: 14px;
+    font-family: "Noto Sans Tamil Supplement", "Arial", sans-serif;
+}
+
+.pages{
+    grid-area: 1 / 8 / 2 / 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    margin: auto;
+    border: none;
+    padding: 12px;
+    background-color: #0a43f0;
+    color: #e4e9fa;
+    font-family: "Noto Sans Tamil Supplement", "Arial", sans-serif;
+    font-size: 100%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+#button-2{
+    margin-right: 7.5%;
+    margin-left: 7.5%
+}

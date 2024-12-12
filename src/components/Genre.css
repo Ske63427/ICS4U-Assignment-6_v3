@@ -1,0 +1,84 @@
+*{
+    color: white;
+}
+
+.genre-parent {
+    display: grid;
+    grid-template-columns: 1fr repeat(4, 250px) 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+}
+
+#genre{
+    background-color: #0a43f0;
+    color: white;
+    border-radius: 10px;
+    font-family: "Noto Sans Tamil Supplement", "Arial", sans-serif;
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+}
+
+#genre:focus{
+    background-color: #883bef;
+}
+
+.gdiv1 { grid-area: 2 / 2 / 3 / 3; }
+.gdiv2 { grid-area: 2 / 3 / 3 / 4; }
+.gdiv3 { grid-area: 2 / 4 / 3 / 5; }
+.gdiv4 { grid-area: 2 / 5 / 3 / 6; }
+.gdiv5 { grid-area: 3 / 2 / 4 / 3; }
+.gdiv6 { grid-area: 3 / 3 / 4 / 4; }
+.gdiv7 { grid-area: 3 / 4 / 4 / 5; }
+.gdiv8 { grid-area: 3 / 5 / 4 / 6; }
+.gdiv9 { grid-area: 4 / 2 / 5 / 3; }
+.gdiv10 { grid-area: 4 / 3 / 5 / 4; }
+.gdiv11 { grid-area: 4 / 4 / 5 / 5; }
+.gdiv12 { grid-area: 4 / 5 / 5 / 6; }
+
+.MovieParent{
+    display: grid;
+    grid-template-columns: 1vw repeat(5, 1fr) 1vw;
+    grid-template-rows: 1fr repeat(4, 433.6px) 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 5px;
+}
+
+.div1 {grid-area: 2 / 2 / 3 / 3;}
+.div2 { grid-area: 2 / 3 / 3 / 4; }
+.div3 { grid-area: 2 / 4 / 3 / 5; }
+.div4 { grid-area: 2 / 5 / 3 / 6; }
+.div5 { grid-area: 2 / 6 / 3 / 7; }
+.div6 { grid-area: 3 / 2 / 4 / 3; }
+.div7 { grid-area: 3 / 3 / 4 / 4; }
+.div8 { grid-area: 3 / 4 / 4 / 5; }
+.div9 { grid-area: 3 / 5 / 4 / 6; }
+.div10 { grid-area: 3 / 6 / 4 / 7; }
+.div11 { grid-area: 4 / 2 / 5 / 3; }
+.div12 { grid-area: 4 / 3 / 5 / 4; }
+.div13 { grid-area: 4 / 4 / 5 / 5; }
+.div14 { grid-area: 4 / 5 / 5 / 6; }
+.div15 { grid-area: 4 / 6 / 5 / 7; }
+.div16 { grid-area: 5 / 2 / 6 / 3; }
+.div17 { grid-area: 5 / 3 / 6 / 4; }
+.div18 { grid-area: 5 / 4 / 6 / 5; }
+.div19 { grid-area: 5 / 5 / 6 / 6; }
+.div20 { grid-area: 5 / 6 / 6 / 7; }
+
+#genrePoster{
+    border-radius: 15px;
+    background-color: gray;
+}
+
+#movieInfo{
+    visibility: hidden;
+    background-color: transparent;
+    margin-top: 5px;
+}
+
+#poster:hover > #movieInfo{
+    visibility: visible;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
