@@ -77,8 +77,7 @@
     margin-top: 5px;
 }
 
-#poster:hover > #movieInfo{
-    visibility: visible;
-    background-color: rgba(0, 0, 0, 0.75);
+#poster:hover{
+    opacity: 0.5
 }
 

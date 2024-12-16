@@ -1,0 +1,33 @@
+div {
+
+}
+
+/*h1 {*/
+/*    margin: 20px 0;*/
+/*    text-align: center;*/
+/*}*/
+
+.cart-items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+#cart-poster {
+    width: 150px;
+    height: auto;
+}
+
+#cart-hone {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+#remove-button {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}

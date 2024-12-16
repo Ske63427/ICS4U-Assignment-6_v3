@@ -12,3 +12,4 @@ install list:
 - npm i -D react-router-dom@latest
 - npm install dotenv
 - npm install axios
+- npm i immutable
